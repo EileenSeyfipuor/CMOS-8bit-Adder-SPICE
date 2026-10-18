@@ -1,0 +1,9 @@
+Measurement Results: Alter="Critical path timing and power"
+   tplh_path       =    1.5412n      
+   tphl_path       =    1.5013n      
+   tp_path         =    1.5213n      
+   tr_path         =  133.7637p      
+   tf_path         =  102.9568p      
+   iavg_path       =  -47.9397u      
+   power_path      =   86.2914u      
+

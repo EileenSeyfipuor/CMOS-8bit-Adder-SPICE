@@ -1,0 +1,66 @@
+T-Spice - Tanner SPICE
+Version 2019.2
+License validated.
+Product Release ID: T-Spice Win64 2019.2.20190514.20:23:23
+Copyright (C)1988-2019 Mentor, a Siemens Business
+
+Input folder         = C:\Users\eilee\OneDrive\Desktop\CMOS-8bit-Adder-SPICE\
+Output folder        = C:\Users\eilee\OneDrive\Desktop\CMOS-8bit-Adder-SPICE\Q2_adder8
+
+	Parsing "C:\Users\eilee\OneDrive\Desktop\CMOS-8bit-Adder-SPICE\Q2_adder8.sp"
+	Including "C:\Users\eilee\OneDrive\Desktop\CMOS-8bit-Adder-SPICE\mosistsmc180.lib"
+
+Start of Q2_adder8.sp
+Loaded BSIM3v31 model library, Berkeley BSIM3 v3.1.0 with extensions
+
+Model Evaluation options:
+          scale = 9e-08
+
+General options:
+        threads = 2
+
+ Device and node counts:
+              MOSFETs -     272
+    MOSFET geometries -       4
+           Capacitors -       9
+      Voltage sources -      18
+   Subckt Definitions -       6
+     Subckt Instances -      73
+     Unique Instances -       6
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -     136
+       Boundary nodes -      19
+          Total nodes -     155
+
+	Opening simulation database "C:\Users\eilee\OneDrive\Desktop\CMOS-8bit-Adder-SPICE\Q2_adder8.tsim"
+
+Start of alter Critical path timing and power
+
+Measure information will be written to file "C:\Users\eilee\OneDrive\Desktop\CMOS-8bit-Adder-SPICE\Q2_adder8\Q2_adder8.measure"
+
+Measurement result summary: Alter="Critical path timing and power"
+   tplh_path       =    1.5412n      
+   tphl_path       =    1.5013n      
+   tp_path         =    1.5213n      
+   tr_path         =  133.7637p      
+   tf_path         =  102.9568p      
+   iavg_path       =  -47.9397u      
+   power_path      =   86.2914u      
+
+
+Parsing                      0.10 seconds
+Setup                        0.08 seconds
+DC operating point           0.05 seconds
+Transient Analysis           1.27 seconds
+Overhead                     0.69 seconds
+Total                        2.19 seconds
+Alter Critical path timing and power
+Setup                        0.02 seconds
+DC operating point           0.03 seconds
+Transient Analysis           0.37 seconds
+Total                        0.40 seconds
+-----------------------------------------
+Total                        2.60 seconds
+
+Simulation completed
